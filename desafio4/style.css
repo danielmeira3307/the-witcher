@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+
+.momo-signature-regular {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    margin: 0;
+}
+header img#d1{
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+header img#d2 {
+    position: absolute;
+    left: 158px;
+    top: 50px;
+    height: 60px;
+}
+header > p {
+    padding-bottom: 50px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: "Momo Signature", serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.301);
+    text-shadow: black;
+}
+section#img01 {
+    background-image: url('imagens/the\ witcher\ 4.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    
+}
+section#img02 {
+    background-image: url('imagens/the\ witcher\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover {
+    background-color: rgba(128, 128, 128, 0.623);
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
